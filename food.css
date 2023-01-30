@@ -1,0 +1,47 @@
+/* gallery */
+/* food gallery */
+/* name */
+/* img */
+/* desc */
+/* order button */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP&family=Shadows+Into+Light&display=swap');
+.parent{
+    width: 70%;
+    height: 500px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:5%;
+
+}
+body{
+    background-image: url("./images/denji-chainsaw-man-devil-hunter-7680x4320-8970.jpg");
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.col{
+    border: black solid 2px;
+}
+.col-1{
+    background-color: rgba(214, 94, 94, 0.618);
+}
+.col-2{
+    background-color: rgba(0, 0, 255, 0.608);
+
+}
+.col-3{
+    background-color:rgba(255, 217, 0, 0.729);
+}
+.col-4{
+    background-color: rgba(240, 248, 255, 0.796);
+}
+button{
+    background-color: cadetblue;
+}
